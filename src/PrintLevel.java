@@ -45,7 +45,7 @@ public class PrintLevel {
 			Map<String, ArrayList<String>> tree, String currentNode, int limit) {
 		 
 		if (limit <= 1) {
-			result.append(currentNode).append(",");
+			result.append(currentNode).append(",");;
 			return;
 		}
 		else {
